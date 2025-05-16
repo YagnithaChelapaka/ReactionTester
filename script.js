@@ -10,9 +10,9 @@ function move() {
     var left;
     var top;
     var wh;
-    left = Math.random() * 300;
-    top = Math.random() * 300;
-    wh = (Math.random() * 400) + 100;
+    left = Math.random() * 500;
+    top = Math.random() * 500;
+    wh = (Math.random() * 500) + 100;
     document.getElementById('box').style.left = left + "px";
     document.getElementById('box').style.top = top + "px";
     document.getElementById('box').style.width = wh + "px";
