@@ -25,7 +25,7 @@ move();
 document.getElementById('box').onclick = function () {
     document.getElementById('box').style.display = "none";
     var end = new Date().getTime();
-    var timeTaken = (end - start) / 1000; //divide 1000 to calculate seconds
+    var timeTaken = (end - start) / 60; //divide 1000 to calculate seconds
     alert(timeTaken);
     move();
 }
